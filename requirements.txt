@@ -1,6 +1,2 @@
 pip install Flask-SQLAlchemy
 pip install python-dotenv sqlalchemy psycopg2
-# To test > In shell:
-flask shell
-from app import db
-db.create_all()

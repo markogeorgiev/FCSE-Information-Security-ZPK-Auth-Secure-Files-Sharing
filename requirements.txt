@@ -1,2 +1,9 @@
-pip install Flask-SQLAlchemy
-pip install python-dotenv sqlalchemy psycopg2
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-Bcrypt
+python-dotenv
+sqlalchemy
+psycopg2
+flask-cors
+flask-migrate

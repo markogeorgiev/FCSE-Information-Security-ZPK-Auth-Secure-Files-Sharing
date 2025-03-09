@@ -104,6 +104,7 @@ def verify():
 
     if lhs == rhs:
         session["username"] = username
+        print(f"User '{username}' logged in successfully")  # Print successful login to the server-side console
         return jsonify({"message": "Login successful"})
     else:
         return jsonify({"error": "Authentication failed"}), 401
